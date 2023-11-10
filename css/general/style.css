@@ -1,0 +1,21 @@
+:root{
+    --background: rgb(254, 255, 255);
+    --text-color:#1f1f1f;
+    --primary-color:#e26d0e;
+    --ash:#aaa;
+    --links:#444;
+
+
+    --main-font: 'Poppins', 'Sans-serif';
+    --heading-font: 'Georgia, 'Times New Roman', serif';
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: var(--background);
+    font-size: 13px;
+    font-family: var(--main-font);
+}

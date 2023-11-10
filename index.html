@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=FontName">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div>
+            <p>Hi John,</p>
+            <h2>Good Morning!</h2>
+        </div>
+
+        <img src="assets/images/man.png" alt="img">
+    </header>
+
+    <div class="search-container">
+        <input type="search" name="search" id="search" placeholder="Search for a topic">
+        <button><i class="fa fa-search"></i></button>
+    </div>
+    
+
+    <section class="todays-article">
+        <h2>Todays Article</h2>
+
+        <img src="assets/images/9002167_4063045.jpg" alt="Article image">
+
+        <div class="article-details">
+            <p class="article-type">Design</p>
+
+            <span>How to get started as a mobile app designer and get your first client.</span>
+
+            <div class="date-and-time">
+                <p class="date">October 4th, 2023</p>
+                <p>-</p>
+                <p class="reading time">15 min read</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="more-articles">
+        <div class="head-of-more">
+            <h2>More Articles</h2>
+            <a href="javascript:void(0)">See All</a>
+        </div>
+
+
+        <div class="art" onclick="openPage()">
+            <img src="assets/images/9002167_4063045.jpg" alt="image">
+
+            <div class="art-det">
+                <p class="art-name">Make a sucessful instagram</p>
+
+                <div class="date-and-time2">
+                    <p class="date">October 4th, 2023</p>
+                    <p>-</p>
+                    <p class="reading time">15 min read</p>
+                </div>
+            </div>
+
+            <a href="javascript:void(0)" onclick="event.stopPropagation()"><i class="fas fa-heart"></i></a>
+        </div>
+
+        <div class="art" onclick="openPage()">
+            <img src="assets/images/9002167_4063045.jpg" alt="image">
+
+            <div class="art-det">
+                <p class="art-name">Make a sucessful instagram</p>
+
+                <div class="date-and-time2">
+                    <p class="date">October 4th, 2023</p>
+                    <p>-</p>
+                    <p class="reading time">15 min read</p>
+                </div>
+            </div>
+
+            <a href="javascript:void(0)" onclick="event.stopPropagation()"><i class="fas fa-heart"></i></a>
+        </div>
+
+        <div class="art last" onclick="openPage()">
+            <img src="assets/images/9002167_4063045.jpg" alt="image">
+
+            <div class="art-det">
+                <p class="art-name">Make a sucessful instagram</p>
+
+                <div class="date-and-time2">
+                    <p class="date">October 4th, 2023</p>
+                    <p>-</p>
+                    <p class="reading time">15 min read</p>
+                </div>
+            </div>
+
+            <a href="javascript:void(0)" onclick="event.stopPropagation()"><i class="fas fa-heart"></i></a>
+        </div>
+    </section>
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>

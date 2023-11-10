@@ -1,0 +1,66 @@
+@import url(/css/general/style.css) all;
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--background);
+}
+header a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+header i{
+    font-size: 20px;
+}
+.article-details{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding: 0 2em;
+    margin-top: 10em;
+}
+.article-details img{
+    width: 100%;
+    border-radius: 1.5em;
+}
+.date-and-time{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    margin-top: 2em;
+    
+}
+.article-name{
+    font-family: var(--heading-font);
+    margin-top: 1em;
+}
+
+
+.article-write-up{
+    margin-top: 2em;
+    padding: 0 2em;
+    margin-bottom: 8em;
+}
+.article-write-up p{
+    margin-top: 2em;
+}
+
+.foot {
+    padding: 1em;
+    position: fixed;
+    bottom: 5%;
+    left: 85%;
+    width: 70%;
+    background: var(--text-color);
+    color: var(--background);
+    text-align: center;
+    transform: translateX(-50%);
+    margin-left: -35%;
+    border-radius: 1em;
+}
