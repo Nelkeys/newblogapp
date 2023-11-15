@@ -1,4 +1,6 @@
-const apiLink = "http://127.0.0.1:3000";
+// const apiLink = "http://127.0.0.1:3000"; //Development
+const apiLink = "https://nelson-blog-app-backend.onrender.com" //Production
+
 const postRoute = "post";
 
 export async function getPost(blob) {
