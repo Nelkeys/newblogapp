@@ -7,6 +7,7 @@ import {
 } from "/js/modules/timestampsConverter.js";
 
 let testBlob = "Getting Started with React"
+
 let postTitle = document.querySelectorAll(".post-title")
 let postContent = document.querySelector(".post-content")
 let dateAndTime = document.querySelector(".date-and-time")
@@ -20,7 +21,7 @@ async function onLoadPost() {
     postTitle.forEach(element => element.innerHTML = postFetched.title)
     postContent.innerHTML = postFetched.content
     dateAndTime.innerHTML = formatTimestampToDateString(parseInt(postFetched.date));
-    timeToRead.innerHTML = postFetched.timeToRead
+    timeToRead.innerHTML = postFetched.timeToRead += " mins read"
 }
 
 onLoadPost()
