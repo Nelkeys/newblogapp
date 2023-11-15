@@ -35,6 +35,9 @@ body {
         display: flex;
         justify-content: space-between;
     }
+    .post-meta > p{
+        margin-right: 0;
+    }
 
     .post-title {
         text-align: center;

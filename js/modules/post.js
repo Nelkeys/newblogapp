@@ -4,5 +4,6 @@ const postRoute = "post";
 export async function getPost(blob) {
   const response = await fetch(`${apiLink}/${postRoute}/blob/${blob}`);
   const data = await response.json();
-  return data;
+
+  return data.Error ? false : data
 }
